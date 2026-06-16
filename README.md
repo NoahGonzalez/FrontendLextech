@@ -1,16 +1,22 @@
-# React + Vite
+# LexTech SpA - Frontend (Control Judicial)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este componente corresponde a la interfaz de usuario (Frontend) del sistema de Gestión de Expedientes, Plazos Legales y Auditoría de LexTech SpA. Ha sido desarrollado utilizando el framework moderno React.js y empaquetado bajo los estándares de producción de Vite, cumpliendo estrictamente con los lineamientos de estructura y scripts de NPM 
 
-Currently, two official plugins are available:
+La aplicación actúa como cliente directo del Backend BFF (puerto `8080`), permitiendo la visualización de datos de expedientes, alertas tempranas de plazos críticos e historiales de trazabilidad de forma interactiva y responsiva.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+##  Requisitos Previos
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Antes de proceder con la instalación y ejecución, asegúrese de contar con las siguientes herramientas en su entorno local:
+* **Node.js**: Versión 18.x o superior instalada de forma global.
+* **NPM**: Administrador de paquetes de Node (instalado automáticamente junto con Node.js).
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Instalación de Dependencias
+
+Para reconstruir el entorno de desarrollo local e instalar todos los módulos y subdependencias declaradas en el archivo `package.json`, sitúese con la terminal en la raíz de este proyecto y ejecute:
+
+```bash
+#npm install
